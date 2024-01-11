@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.navbar > img{
+    width: 10rem;
+}
+
+.navbar{
+    /* background-color: lightgray; */
+    justify-content: space-between;
+    display:flex;
+    padding: 20px 40px;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+.hero-grid > img{
+    align-items: center;
+
+    width: 70%;
+    height: auto;
+}
+.hero{
+    padding: 20px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10rem;
+}
+.header-flex >li{
+    font-size: 1.5em;
+    color: red;
+}
+
+.hero-grid {
+    display: flex;
+    justify-content: center;
+}
