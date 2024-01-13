@@ -4,6 +4,7 @@ import React from 'react'
 // import viteLogo from '/vite.svg'
 import Header from './Header'
 import Hero from './Hero'
+import Card from './Card'
 
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Card 
+      />
     </>
   )
 }
