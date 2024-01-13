@@ -13,8 +13,38 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Card 
-      />
+      <div className="container">
+        <Card 
+        img="src/assets/katie-zaferes.png"
+        rating={6}
+        country="USA"
+        title="life lessons with katie zaferes"
+        rate ={136}
+        />
+
+        <Card 
+        img="src/assets/katie-zaferes.png"
+        rating={6}
+        country="USA"
+        title="life lessons with katie zaferes"
+        rate ={136}
+        />
+          <Card 
+        img="src/assets/katie-zaferes.png"
+        rating={6}
+        country="USA"
+        title="life lessons with katie zaferes"
+        rate ={136}
+        />
+        <Card 
+        img="src/assets/katie-zaferes.png"
+        rating={6}
+        country="USA"
+        title="life lessons with katie zaferes"
+        rate ={136}
+        />
+
+      </div>
     </>
   )
 }

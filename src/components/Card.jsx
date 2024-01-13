@@ -9,16 +9,16 @@ function Card(props){
 
     return (
         <div className="card">
-            <img src="src/assets/katie-zaferes.png" alt="katie-zaferes" />
+            <img src={props.img} alt="katie-zaferes" />
             <div className="card--stats">
                 <img className="card--star" src="src/assets/star.png" alt="star" />
-                <span></span>
+                <span>({props.rating})</span>
                 <span> •</span>
-                <span>USA</span>
+                <span>{props.country}</span>
                 
             </div>
-            <p>life lessons with katie zaferes</p>
-            <p><strong>from $136</strong> / person</p>
+            <p>{props.title}</p>
+            <p><strong>from ${props.rate}</strong> / person</p>
         </div>
     )
 
