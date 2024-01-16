@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Logo from "/airbnb-logo.png"
+import Logo from "/images/airbnb-logo.png"
 
 
 function Header(){

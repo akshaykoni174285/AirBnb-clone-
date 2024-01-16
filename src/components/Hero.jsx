@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 import React from 'react';
-import Grid from "/photo-grid.png"
+import Grid from "/images/photo-grid.png"
 function Hero(){
     return(
         <div className="hero">

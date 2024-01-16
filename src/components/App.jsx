@@ -5,44 +5,23 @@ import React from 'react'
 import Header from './Header'
 import Hero from './Hero'
 import Card from './Card'
+import Data from "./data"
+
+
 
 
 function App() {
+  var singleData = Data.map((D) => <Card key={D.id} title={D.title} description={D.description} price={D.price} coverImg={D.coverImg} rating={D.stats.rating} location={D.location} reviewCount={D.stats.reviewCount} />)
 
   return (
     <>
       <Header />
       <Hero />
       <div className="container">
-        <Card 
-        img="src/assets/katie-zaferes.png"
-        rating={6}
-        country="USA"
-        title="life lessons with katie zaferes"
-        rate ={136}
-        />
+        {singleData}
+        
 
-        <Card 
-        img="src/assets/katie-zaferes.png"
-        rating={6}
-        country="USA"
-        title="life lessons with katie zaferes"
-        rate ={136}
-        />
-          <Card 
-        img="src/assets/katie-zaferes.png"
-        rating={6}
-        country="USA"
-        title="life lessons with katie zaferes"
-        rate ={136}
-        />
-        <Card 
-        img="src/assets/katie-zaferes.png"
-        rating={6}
-        country="USA"
-        title="life lessons with katie zaferes"
-        rate ={136}
-        />
+        
 
       </div>
     </>
