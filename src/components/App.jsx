@@ -11,7 +11,12 @@ import Data from "./data"
 
 
 function App() {
-  var singleData = Data.map((D) => <Card key={D.id} title={D.title} description={D.description} price={D.price} coverImg={D.coverImg} rating={D.stats.rating} location={D.location} reviewCount={D.stats.reviewCount} />)
+  var singleData = Data.map((item) => 
+  <Card 
+  key={item.id} 
+  item={item}
+  
+  />)
 
   return (
     <>
